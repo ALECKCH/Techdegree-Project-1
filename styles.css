@@ -4,7 +4,7 @@
 }
   
 body {
-  margin:0;
+  margin:0px;
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -80,13 +80,13 @@ header .profile-image:hover {
   background-color: #efefef;
   color: black;
   padding: 10px;
-  border-radius: 5px;
+  border-radius:5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: rgb(252, 252, 10);
 }
 .card {
   margin: 30px;
@@ -96,7 +96,7 @@ header .profile-image:hover {
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
-  transition: all .5s;
+  transition: all .8s;
 }
 .card:hover {
   border-color: #ff99ff;
