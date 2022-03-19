@@ -4,24 +4,32 @@
 }
   
 body {
-  margin:0px;
+  margin: 0;
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
   background: #f7f5f0;
 }
+
 /* Link Styles */
+
 
 a {
   text-decoration: none;
   color: #999;
 }
+
 a:hover {
   color: #6633ff;
 }
 
 /* Section Styles */
+
+.nav-bar{
+  position: fixed;
+  top: 0;
+}
 
 .main-nav {
   width: 100%;
