@@ -23,7 +23,9 @@ a {
 a:hover {
   color: #6633ff;
 }
-
+a:link {
+  color: #0399ff;
+}
 /* Section Styles */
 
 .main-nav {
@@ -31,8 +33,9 @@ a:hover {
   background: black;
   min-height: 30px;
   padding: 8px;
-  position: fixed;
   text-align: center;
+  position: fixed;
+  top: 0px;
 }
 .nav {
   display: flex;
@@ -103,6 +106,13 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #ff99ff;
+}
+
+.content {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center; 
 }
 
 ul.skills {
@@ -187,8 +197,8 @@ a.social:hover {
   }
 
   .nav {
-    max-width: 1200px;
-    padding: 0 30px;
+     max-width: 1200px;
+     padding: 0 30px; 
   }
 
 
@@ -205,6 +215,8 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
 }
+  
+
+
 
